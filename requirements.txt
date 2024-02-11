@@ -20,3 +20,4 @@ blinker==1.6.2
 
 # flask_mysqldb
 # psycopg2-binary
+dnspython>=2.6.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
