@@ -1,6 +1,6 @@
 flask==2.2.5
-Werkzeug==2.3.7
-jinja2==3.1.2
+Werkzeug==3.0.6
+jinja2==3.1.5
 flask-login==0.6.2
 flask_migrate==4.0.4
 WTForms==3.0.1
@@ -20,3 +20,4 @@ blinker==1.6.2
 
 # flask_mysqldb
 # psycopg2-binary
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
